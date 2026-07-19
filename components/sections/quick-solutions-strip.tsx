@@ -17,7 +17,7 @@ export function QuickSolutionsStrip() {
             title="Uzun kurulum sürecine girmeden daha kurumsal görünmek isteyen işletmeler için düşük giriş bariyerli başlangıçlar."
             description="Bu alan ayrı route yerine ana satış akışında hızlı karar verilmesi için section olarak kurgulandı."
           />
-          <Link href={ctaLinks.quote} className={buttonStyles({ variant: "premium" })}>
+          <Link href={ctaLinks.quote} className={buttonStyles({ variant: "primary" })}>
             Hızlı teklif isteyin
           </Link>
         </div>

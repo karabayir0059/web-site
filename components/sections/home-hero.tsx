@@ -147,7 +147,7 @@ export function HomeHero() {
           <Link
             href={ctaLinks.quote}
             className={buttonStyles({
-              variant: "premium",
+              variant: "primary",
               size: "lg",
             })}
           >
