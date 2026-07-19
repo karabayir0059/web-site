@@ -1,0 +1,258 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: Evval.
+    - generic [ref=e5]: Loading
+  - navigation [ref=e6]:
+    - generic [ref=e7]:
+      - link "Evval." [ref=e8] [cursor=pointer]:
+        - /url: /
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Ana Sayfa" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - link "Hakkımızda" [ref=e13] [cursor=pointer]:
+            - /url: /hakkimizda
+        - listitem [ref=e14]:
+          - link "Odalar" [ref=e15] [cursor=pointer]:
+            - /url: /odalar
+        - listitem [ref=e16]:
+          - link "Restoran" [ref=e17] [cursor=pointer]:
+            - /url: /restoran
+        - listitem [ref=e18]:
+          - link "Spa & Wellness" [ref=e19] [cursor=pointer]:
+            - /url: /spa
+        - listitem [ref=e20]:
+          - link "Galeri" [ref=e21] [cursor=pointer]:
+            - /url: /galeri
+        - listitem [ref=e22]:
+          - link "İletişim" [ref=e23] [cursor=pointer]:
+            - /url: /iletisim
+        - listitem [ref=e24]:
+          - link "Rezervasyon" [ref=e25] [cursor=pointer]:
+            - /url: /rezervasyon
+        - listitem [ref=e26]:
+          - generic [ref=e27]:
+            - button "TR" [ref=e28] [cursor=pointer]
+            - button "EN" [ref=e29] [cursor=pointer]
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - img "Evval Otel" [ref=e33]
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: Hoş Geldiniz
+        - heading "Evval Otel" [level=1] [ref=e36]
+        - paragraph [ref=e37]: Doğanın kalbinde, huzurun kucağında unutulmaz bir butik otel deneyimi.
+        - link "Rezervasyon Yap" [ref=e38] [cursor=pointer]:
+          - /url: /rezervasyon
+      - generic [ref=e39]: Keşfet
+    - generic [ref=e44]:
+      - img "Evval Otel Lobisi" [ref=e46]
+      - generic [ref=e47]:
+        - paragraph [ref=e48]: Hakkımızda
+        - heading "Huzurun ve Zarafetin Buluştuğu Nokta" [level=2] [ref=e49]
+        - paragraph [ref=e50]: Evval Otel, doğanın eşsiz güzellikleriyle çevrili, her detayı özenle düşünülmüş bir butik otel deneyimi sunar. Sessizliğin ve huzurun hüküm sürdüğü bu özel mekanda, zamansız bir lüksün tadını çıkaracaksınız.
+        - paragraph [ref=e51]: Geleneksel mimari ile modern tasarımın buluştuğu odalarımız, şefimizin özenle hazırladığı lezzetler ve yenileyici spa deneyimimizle sizi bekliyoruz.
+        - link "Daha Fazla Keşfet" [ref=e52] [cursor=pointer]:
+          - /url: /hakkimizda
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - paragraph [ref=e56]: Konaklama
+        - heading "Odalarımız" [level=2] [ref=e57]
+        - paragraph [ref=e59]: Her biri özenle tasarlanmış odalarımızda konforun ve zarafetin tadını çıkarın.
+      - generic [ref=e60]:
+        - generic [ref=e61] [cursor=pointer]:
+          - generic [ref=e62]:
+            - img "Klasik Oda" [ref=e63]
+            - generic [ref=e64]: ★ Popüler
+          - generic [ref=e65]:
+            - paragraph [ref=e66]: Standart
+            - heading "Klasik Oda" [level=3] [ref=e67]
+            - paragraph
+            - generic [ref=e68]:
+              - generic [ref=e69]: ₺2.500 / gece
+              - link "İncele →" [ref=e70]:
+                - /url: /odalar/1
+        - generic [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]:
+            - img "Executive Suit" [ref=e73]
+            - generic [ref=e74]: ★ En Çok Tercih Edilen
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: Suit
+            - heading "Executive Suit" [level=3] [ref=e77]
+            - paragraph
+            - generic [ref=e78]:
+              - generic [ref=e79]: ₺4.500 / gece
+              - link "İncele →" [ref=e80]:
+                - /url: /odalar/2
+        - generic [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]:
+            - img "Aile Suiti" [ref=e83]
+            - generic [ref=e84]: ★ Premium
+          - generic [ref=e85]:
+            - paragraph [ref=e86]: Aile
+            - heading "Aile Suiti" [level=3] [ref=e87]
+            - paragraph
+            - generic [ref=e88]:
+              - generic [ref=e89]: ₺5.500 / gece
+              - link "İncele →" [ref=e90]:
+                - /url: /odalar/3
+    - generic [ref=e93]:
+      - paragraph [ref=e94]: Restoran
+      - heading "Şefin Özel Lezzetleri" [level=2] [ref=e95]
+      - paragraph [ref=e96]: Yerel ve mevsimsel malzemelerle hazırlanan eşsiz lezzetler, şefimizin özenli dokunuşlarıyla sofranızda.
+      - link "Menüyü Keşfet" [ref=e97] [cursor=pointer]:
+        - /url: /restoran
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - paragraph [ref=e101]: Hizmetlerimiz
+        - heading "Premium Hizmetler" [level=2] [ref=e102]
+        - paragraph [ref=e104]: Konforunuz için sunduğumuz özenli hizmetlerle kendinizi ayrıcalıklı hissedin.
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e107]: ✦
+          - heading "Spa & Wellness" [level=3] [ref=e108]
+          - paragraph [ref=e109]: Geleneksel ve modern terapilerle bedeninizi ve ruhunuzu yenileyin.
+        - generic [ref=e110]:
+          - generic [ref=e111]: ✦
+          - heading "Özel Şef Menüsü" [level=3] [ref=e112]
+          - paragraph [ref=e113]: Mevsimsel malzemelerle hazırlanan fine dining deneyimi.
+        - generic [ref=e114]:
+          - generic [ref=e115]: ✦
+          - heading "Sonsuzluk Havuzu" [level=3] [ref=e116]
+          - paragraph [ref=e117]: Doğa manzaralı sonsuzluk havuzumuzda huzurun tadını çıkarın.
+        - generic [ref=e118]:
+          - generic [ref=e119]: ✦
+          - heading "Transfer Hizmeti" [level=3] [ref=e120]
+          - paragraph [ref=e121]: Havalimanından otelimize kadar VIP transfer konforu.
+        - generic [ref=e122]:
+          - generic [ref=e123]: ✦
+          - heading "Özel Turlar" [level=3] [ref=e124]
+          - paragraph [ref=e125]: Bölgenin eşsiz güzelliklerini rehber eşliğinde keşfedin.
+        - generic [ref=e126]:
+          - generic [ref=e127]: ✦
+          - heading "7/24 Oda Servisi" [level=3] [ref=e128]
+          - paragraph [ref=e129]: Ne zaman isterseniz, özenle hazırlanmış lezzetler odanızda.
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]: "0"
+        - paragraph [ref=e135]: Yıllık Deneyim
+      - generic [ref=e136]:
+        - generic [ref=e137]: "0"
+        - paragraph [ref=e138]: Özel Oda
+      - generic [ref=e139]:
+        - generic [ref=e140]: "0"
+        - paragraph [ref=e141]: Ödül
+      - generic [ref=e142]:
+        - generic [ref=e143]: "0"
+        - paragraph [ref=e144]: Mutlu Misafir
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - paragraph [ref=e148]: Yorumlar
+        - heading "Misafirlerimiz Ne Diyor?" [level=2] [ref=e149]
+      - generic [ref=e152]:
+        - generic [ref=e153]: ☆☆☆☆☆
+        - paragraph [ref=e154]: "\"\""
+        - paragraph
+      - generic [ref=e155]:
+        - button [ref=e156] [cursor=pointer]
+        - button [ref=e157] [cursor=pointer]
+        - button [ref=e158] [cursor=pointer]
+    - generic [ref=e159]:
+      - generic [ref=e161]:
+        - paragraph [ref=e162]: Galeri
+        - heading "Otelimizden Kareler" [level=2] [ref=e163]
+      - generic [ref=e165]:
+        - generic [ref=e166] [cursor=pointer]:
+          - img "Galeri Görseli" [ref=e167]
+          - generic [ref=e168]: ⊕
+        - generic [ref=e170] [cursor=pointer]:
+          - img "Galeri Görseli" [ref=e171]
+          - generic [ref=e172]: ⊕
+        - generic [ref=e174] [cursor=pointer]:
+          - img "Galeri Görseli" [ref=e175]
+          - generic [ref=e176]: ⊕
+        - generic [ref=e178] [cursor=pointer]:
+          - img "Galeri Görseli" [ref=e179]
+          - generic [ref=e180]: ⊕
+        - generic [ref=e182] [cursor=pointer]:
+          - img "Galeri Görseli" [ref=e183]
+          - generic [ref=e184]: ⊕
+      - link "Tüm Galeriyi Gör" [ref=e187] [cursor=pointer]:
+        - /url: /galeri
+    - iframe [ref=e189]
+  - button "WhatsApp" [ref=e190] [cursor=pointer]
+  - contentinfo [ref=e193]:
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - generic [ref=e196]:
+          - generic [ref=e197]: Evval.
+          - paragraph [ref=e198]: Doğanın kalbinde, sessizliğin ve huzurun buluştuğu nokta. Her anınızı özel kılmak için tasarlanmış butik otel deneyimi.
+          - generic [ref=e199]:
+            - link "Instagram" [ref=e200] [cursor=pointer]:
+              - /url: "#"
+              - text: IG
+            - link "Facebook" [ref=e201] [cursor=pointer]:
+              - /url: "#"
+              - text: FB
+            - link "Twitter" [ref=e202] [cursor=pointer]:
+              - /url: "#"
+              - text: TW
+            - link "TripAdvisor" [ref=e203] [cursor=pointer]:
+              - /url: "#"
+              - text: TA
+        - generic [ref=e204]:
+          - heading "Linkler" [level=4] [ref=e205]
+          - list [ref=e206]:
+            - listitem [ref=e207]:
+              - link "Ana Sayfa" [ref=e208] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e209]:
+              - link "Odalar" [ref=e210] [cursor=pointer]:
+                - /url: /odalar
+            - listitem [ref=e211]:
+              - link "Restoran" [ref=e212] [cursor=pointer]:
+                - /url: /restoran
+            - listitem [ref=e213]:
+              - link "Spa & Wellness" [ref=e214] [cursor=pointer]:
+                - /url: /spa
+            - listitem [ref=e215]:
+              - link "Galeri" [ref=e216] [cursor=pointer]:
+                - /url: /galeri
+            - listitem [ref=e217]:
+              - link "İletişim" [ref=e218] [cursor=pointer]:
+                - /url: /iletisim
+        - generic [ref=e219]:
+          - heading "Hizmetler" [level=4] [ref=e220]
+          - list [ref=e221]:
+            - listitem [ref=e222]:
+              - link "Spa & Wellness" [ref=e223] [cursor=pointer]:
+                - /url: /spa
+            - listitem [ref=e224]:
+              - link "Havuz" [ref=e225] [cursor=pointer]:
+                - /url: /havuz
+            - listitem [ref=e226]:
+              - link "Transfer" [ref=e227] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e228]:
+              - link "Özel Turlar" [ref=e229] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e230]:
+              - link "Tüm Hizmetler" [ref=e231] [cursor=pointer]:
+                - /url: /hizmetler
+        - generic [ref=e232]:
+          - heading "İletişim" [level=4] [ref=e233]
+          - generic [ref=e234]:
+            - generic [ref=e235]: 📍
+            - generic [ref=e236]: Örnek Mahallesi, Doğa Caddesi No:1, 34000 İstanbul
+          - generic [ref=e237]:
+            - generic [ref=e238]: 📞
+            - generic [ref=e239]: +90 (555) 123 45 67
+          - generic [ref=e240]:
+            - generic [ref=e241]: ✉
+            - generic [ref=e242]: info@evvalotel.com
+          - generic [ref=e243]:
+            - generic [ref=e244]: 🕐
+            - generic [ref=e245]: "Check-in: 14:00 | Check-out: 12:00"
+      - generic [ref=e246]:
+        - generic [ref=e247]: © 2026 Evval Otel. Tüm hakları saklıdır.
+        - generic [ref=e248]: Premium Butik Otel Deneyimi

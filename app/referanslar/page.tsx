@@ -1,0 +1,85 @@
+"use client";
+
+import { useState } from "react";
+import { CtaBanner } from "@/components/sections/cta-banner";
+import { PageHeader } from "@/components/sections/page-header";
+import { Container } from "@/components/ui/container";
+import { ProjectCard } from "@/components/ui/project-card";
+import { Reveal } from "@/components/ui/reveal";
+import { portfolioItems } from "@/data/portfolio";
+import type { PortfolioItem } from "@/data/portfolio";
+
+const categories = [
+  { value: "all", label: "Tümü" },
+  { value: "web-sitesi", label: "Web Siteleri" },
+  { value: "otomasyon", label: "Otomasyon" },
+  { value: "altyapi", label: "Altyapı" },
+] as const;
+
+export default function PortfolioPage() {
+  const [activeCategory, setActiveCategory] = useState<string>("all");
+
+  const filtered: PortfolioItem[] =
+    activeCategory === "all"
+      ? portfolioItems
+      : portfolioItems.filter((p) => p.category === activeCategory);
+
+  return (
+    <>
+      <PageHeader
+        eyebrow="Referanslar"
+        title="Her proje farklı bir ihtiyaçtan doğdu, her biri kendi sektöründe dijital altyapıyı güçlendirmek için kuruldu."
+        description="Yaptığımız işleri görmek, sizin için nasıl bir çözüm kurgulayabileceğimizi anlamanın en iyi yolu. Her site ve otomasyon akışı, o işletmenin önceliklerine göre şekillendi."
+        asideTitle="Bu sayfada ne göreceksiniz?"
+        asideItems={[
+          "Gerçek yayındaki web siteleri",
+          "Farklı sektörlerden örnekler",
+          "Her projenin canlı bağlantısı",
+        ]}
+      />
+
+      <section className="pb-16 sm:pb-20">
+        <Container>
+          {/* Category filter */}
+          <Reveal className="mb-8 flex flex-wrap gap-2">
+            {categories.map((cat) => (
+              <button
+                key={cat.value}
+                onClick={() => setActiveCategory(cat.value)}
+                className={`rounded-pill border px-4 py-2 text-sm font-semibold transition-all duration-[var(--duration-base)] ${
+                  activeCategory === cat.value
+                    ? "bg-brand text-white shadow-soft"
+                    : "border-border/80 bg-white text-foreground hover:border-brand/25 hover:text-brand"
+                }`}
+              >
+                {cat.label}
+              </button>
+            ))}
+          </Reveal>
+
+          {/* Project grid */}
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {filtered.map((project, index) => (
+              <Reveal key={project.title} delay={index * 0.03}>
+                <ProjectCard project={project} />
+              </Reveal>
+            ))}
+          </div>
+
+          {filtered.length === 0 && (
+            <div className="rounded-xl border border-border/80 bg-surface-soft px-8 py-12 text-center">
+              <p className="font-heading text-2xl text-muted">
+                Bu kategoride henüz proje bulunmuyor.
+              </p>
+            </div>
+          )}
+        </Container>
+      </section>
+
+      <CtaBanner
+        title="Sizin işletmeniz için nasıl bir çözüm kurgulayabileceğimizi konuşalım."
+        description="Web sitesi, kurumsal e-posta veya otomasyon — hangi adımın önce gelmesi gerektiğini birlikte netleştirelim."
+      />
+    </>
+  );
+}

@@ -1,0 +1,6 @@
+- generic [active] [ref=f2e1]:
+  - alert [ref=f2e2]
+  - generic [ref=f2e6]:
+    - heading "RD MİMARLIK" [level=1] [ref=f2e7]
+    - paragraph [ref=f2e8]: MİMARLIK · TASARIM · PROJE
+  - button "Renk paletini değiştir" [ref=f2e10]

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Web Site ve Otomasyon</title>
+  <rect width="64" height="64" rx="16" fill="#6750A4" />
+  <defs>
+    <linearGradient id="fav-flow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#DAA654" />
+      <stop offset="40%" stopColor="#E8C86A" />
+      <stop offset="100%" stopColor="#4A3670" />
+    </linearGradient>
+  </defs>
+  <!-- Stacked squares — Stack Overflow inspired -->
+  <g>
+    <rect x="9" y="31" width="24" height="24" rx="4" fill="url(#fav-flow)" />
+    <rect x="19" y="21" width="24" height="24" rx="4" fill="url(#fav-flow)" opacity="0.85" />
+    <rect x="28" y="12" width="24" height="24" rx="4" fill="url(#fav-flow)" opacity="0.7" />
+  </g>
+</svg>
