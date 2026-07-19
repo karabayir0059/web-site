@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 import { Container } from "@/components/ui/container";
-import { Card } from "@/components/ui/card";
 import { buttonStyles } from "@/components/ui/button";
 import { ctaLinks } from "@/data/site";
 

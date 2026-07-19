@@ -59,3 +59,5 @@ coverage/
 # Kilo plans (generated)
 .kilo/plans/*.md
 .vercel
+
+
