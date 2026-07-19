@@ -13,13 +13,13 @@ export function MobileNav() {
 
   return (
     <div className="md:hidden">
-      <button type="button" aria-expanded={open} onClick={() => setOpen((value) => !value)} className="focus-ring rounded-pill border border-border bg-white p-3 shadow-soft">
+      <button type="button" aria-expanded={open} onClick={() => setOpen((value) => !value)} className="focus-ring rounded-pill border border-border bg-surface-elevated p-3 shadow-soft">
         {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
       </button>
 
       <div
         className={cn(
-          "absolute inset-x-4 top-[calc(100%+0.75rem)] rounded-xl border border-border bg-white/95 p-5 shadow-card backdrop-blur-sm transition-all",
+          "absolute inset-x-4 top-[calc(100%+0.75rem)] rounded-xl border border-border bg-surface-elevated/95 p-5 shadow-card backdrop-blur-sm transition-all",
           open ? "visible translate-y-0 opacity-100" : "invisible -translate-y-2 opacity-0",
         )}
       >

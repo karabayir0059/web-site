@@ -6,7 +6,7 @@ import { ctaLinks } from "@/data/site";
 
 export function StickyCta() {
   return (
-    <div className="glass-white fixed inset-x-0 bottom-0 z-40 py-3 shadow-glass">
+    <div className="glass-elevated fixed inset-x-0 bottom-0 z-40 py-3 shadow-glass">
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/40 to-transparent" />
       <Container className="flex items-center justify-between gap-3">
         <div className="hidden min-w-0 sm:block">

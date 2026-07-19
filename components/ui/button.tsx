@@ -28,7 +28,7 @@ export function buttonStyles({
     },
     {
       "bg-brand text-brand-contrast shadow-soft hover:bg-brand-hover": variant === "primary",
-      "border border-border bg-white text-foreground shadow-soft hover:border-brand/30": variant === "secondary",
+      "border border-border bg-surface-elevated text-foreground shadow-soft hover:border-brand/30": variant === "secondary",
       "bg-transparent text-foreground hover:bg-brand-soft hover:text-brand": variant === "ghost",
       "border border-white/15 bg-white/10 text-white hover:bg-white/16": variant === "dark",
       "glass text-foreground shadow-glass border border-white/20 hover:border-brand/30": variant === "glass",

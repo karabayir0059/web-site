@@ -37,7 +37,7 @@ export function PricingTabs({ categories }: PricingTabsProps) {
                 "focus-ring rounded-pill border px-5 py-3 text-sm font-semibold",
                 selected
                   ? "border-brand/25 bg-brand-soft text-brand shadow-soft"
-                  : "border-border bg-white text-muted hover:border-brand/15 hover:text-brand",
+                  : "border-border bg-surface text-muted hover:border-brand/15 hover:text-brand",
               )}
               onClick={() => setActiveTab(category.id)}
             >
@@ -70,7 +70,7 @@ export function PricingTabs({ categories }: PricingTabsProps) {
                     <h3 className="font-heading text-2xl tracking-[-0.04em] text-foreground">{plan.name}</h3>
                     <p className="mt-2 text-sm leading-7 text-muted">{plan.summary}</p>
                   </div>
-                  <div className="rounded-lg border border-border/80 bg-white/80 px-4 py-3">
+                  <div className="rounded-lg border border-border/80 bg-surface-elevated/60 px-4 py-3">
                     <p className="text-xs font-semibold uppercase tracking-wide text-brand">Yatırım çerçevesi</p>
                     <p className="mt-2 text-sm font-medium text-foreground">{plan.investmentLabel}</p>
                   </div>

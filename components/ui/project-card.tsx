@@ -37,7 +37,7 @@ export function ProjectCard({ project, variant = "default" }: ProjectCardProps) 
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
 
         {/* Category badge */}
-        <span className="absolute left-3 top-3 rounded-full border border-white/20 bg-white/90 px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-brand shadow-soft backdrop-blur-sm">
+        <span className="absolute left-3 top-3 rounded-full border border-white/20 bg-surface-elevated/90 px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-brand shadow-soft backdrop-blur-sm">
           {project.category === "web-sitesi" ? "Web Sitesi" : project.category === "otomasyon" ? "Otomasyon" : "Altyapı"}
         </span>
       </div>

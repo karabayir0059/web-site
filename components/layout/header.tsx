@@ -8,7 +8,7 @@ import { ctaLinks, mainNav } from "@/data/site";
 
 export function Header() {
   return (
-    <header className="glass-white sticky top-0 z-40 shadow-glass">
+    <header className="glass-elevated sticky top-0 z-40 shadow-glass">
       <Container className="relative flex h-18 items-center justify-between gap-6 py-4">
         <Link href="/" className="focus-ring rounded-lg">
           <Logo variant="full" />
