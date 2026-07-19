@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx",
     "typecheck": "tsc -p tsconfig.typecheck.json --noEmit --incremental false",
-    "vercel-build": "mkdir -p .codegraph && next build"
+    "vercel-build": "mkdir -p .codegraph 2>/dev/null || true && next build"
   },
   "dependencies": {
     "clsx": "^2.1.1",
