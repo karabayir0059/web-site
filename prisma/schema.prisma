@@ -1,0 +1,85 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  role      String   @default("admin")
+  createdAt DateTime @default(now())
+}
+
+model Service {
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  shortDesc   String
+  description String
+  icon        String
+  price       String?
+  features    String   @default("[]")
+  order       Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+}
+
+model Project {
+  id           Int      @id @default(autoincrement())
+  title        String
+  slug         String   @unique
+  description  String
+  category     String
+  image        String
+  images       String   @default("[]")
+  client       String?
+  date         DateTime?
+  technologies String   @default("[]")
+  url          String?
+  isActive     Boolean  @default(true)
+  createdAt    DateTime @default(now())
+}
+
+model PageContent {
+  id        Int      @id @default(autoincrement())
+  page      String
+  section   String
+  content   String
+  updatedAt DateTime @updatedAt
+
+  @@unique([page, section])
+}
+
+model Message {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  phone     String?
+  subject   String?
+  message   String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model SiteSetting {
+  id        Int      @id @default(autoincrement())
+  key       String   @unique
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
+model SeoSettings {
+  id              Int      @id @default(autoincrement())
+  page            String   @unique
+  metaTitle       String?
+  metaDescription String?
+  ogImage         String?
+  canonical       String?
+  updatedAt       DateTime @updatedAt
+}
